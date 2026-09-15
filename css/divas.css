@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#aprenda {
+    color: #ff0000;
+}
+
+header {
+    padding: 15px;
+    display: flex;
+    gap: 23%;
+    background-color: #ff5cce;
+    a {
+        text-decoration: none;
+        color:black
+    }
+}
+
+#header-itens {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+}
+
+#conheca {
+    padding: 20px;
+}
+
+#unidas {
+    color: #ff0000;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+#Tela-inicial {
+    display: flex;
+    background-color: rgb(255, 126, 205);
+}
+
+#as {
+    color: #ff0000;
+}
+
+#destaque {
+    font-size: 40px;
+}
+
+#galeria {
+    padding: 20px;
+}
+
+.cards {
+    background-color: #ff5cce;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.cards img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.nomes {
+    font-size: 30px;
+}
+
+#imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#tematica {
+    color:grey;
+    padding: 20px;
+}

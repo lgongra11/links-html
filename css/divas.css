@@ -13,11 +13,13 @@ header {
     display: flex;
     gap: 23%;
     background-color: #ff5cce;
-    a {
+    align-items: center;
+}
+
+a {
         text-decoration: none;
         color:black
     }
-}
 
 #header-itens {
     display: flex;
@@ -50,6 +52,18 @@ h2 {
     font-size: 40px;
 }
 
+#escrita-galeria {
+    padding: 15px;
+    display: flex;
+    align-items: flex-end;
+    gap: 75%;
+    justify-content: center;
+}
+
+#seis{
+    color: #c300e1ea;
+    font-size: 25px;
+}
 #galeria {
     padding: 20px;
 }
@@ -78,7 +92,19 @@ h2 {
     gap: 20px;
 }
 
-#tematica {
-    color:grey;
-    padding: 20px;
+#minisite {
+    display: flex;
+    justify-content: center;
+    gap: 47%;
+}
+
+footer {
+    background-color: #fe6ad2;
+    padding: 15px;
+}
+
+.clique {
+    background-color:#c300e1ea;
+    padding: 5px;
+    border-radius: 5px;
 }

@@ -7,6 +7,7 @@
 header {
     padding: 15px;
     display: flex;
+    align-items: center;
     gap: 23%;
     background-color: #ff5cce;
 }
@@ -30,6 +31,10 @@ a {
     font-size: 20px;
 }
 
+h2 {
+    font-size: 45px;
+}
+
 #tela-inicial {
     display: flex;
     flex-direction: row;
@@ -42,11 +47,27 @@ a {
 }
 
 #info-texto {
-    line-height: 33px;
+    line-height: 40px;
+}
+
+.clique {
+    background-color:#c300e1ea;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#sede {
+    background-color: #c300e1ea;
+    text-align: center;
+    padding: 5px;
 }
 
 #fortes {
-    padding: 20px;
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+    gap: 65%;
+    justify-content: center;
 }
 
 #especiais {
@@ -54,5 +75,55 @@ a {
 }
 
 #mais {
-    color:#a60e83c7
+    color: #c300e1ea; 
+    font-size: 25px;
+}
+
+#um {
+    color: #c300e1ea;
+    font-size: 25px;
+}
+
+#cards{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+#presenca {
+    background-color: rgb(255, 203, 241);
+    border-radius: 10px;
+    padding: 15px
+}
+
+#legado {
+    background-color: rgb(255, 203, 241);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#vocais {
+    background-color: rgb(255, 203, 241);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#pronto {
+    background-color: #d46fe4ea;
+    text-align: center;
+    padding: 30px;
+    line-height: 30px;
+}
+
+#minisite {
+    display: flex;
+    justify-content: center;
+    gap: 47%;
+}
+
+footer {
+    background-color: #fe6ad2;
+    padding: 15px;
 }
